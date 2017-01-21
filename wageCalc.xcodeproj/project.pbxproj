@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FA0FFB31E3381750019B5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFB21E3381750019B5EF /* AppDelegate.swift */; };
+		8FA0FFB51E3381750019B5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFB41E3381750019B5EF /* ViewController.swift */; };
+		8FA0FFB81E3381750019B5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0FFB61E3381750019B5EF /* Main.storyboard */; };
+		8FA0FFBA1E3381750019B5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0FFB91E3381750019B5EF /* Assets.xcassets */; };
+		8FA0FFBD1E3381750019B5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0FFBB1E3381750019B5EF /* LaunchScreen.storyboard */; };
+		8FA0FFC81E3381750019B5EF /* wageCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFC71E3381750019B5EF /* wageCalcTests.swift */; };
+		8FA0FFD31E3381750019B5EF /* wageCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFD21E3381750019B5EF /* wageCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA0FFC41E3381750019B5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA0FFA71E3381750019B5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA0FFAE1E3381750019B5EF;
+			remoteInfo = wageCalc;
+		};
+		8FA0FFCF1E3381750019B5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA0FFA71E3381750019B5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA0FFAE1E3381750019B5EF;
+			remoteInfo = wageCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FA0FFAF1E3381750019B5EF /* wageCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wageCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA0FFB21E3381750019B5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FA0FFB41E3381750019B5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FA0FFB71E3381750019B5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA0FFB91E3381750019B5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA0FFBC1E3381750019B5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FA0FFBE1E3381750019B5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA0FFC31E3381750019B5EF /* wageCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wageCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA0FFC71E3381750019B5EF /* wageCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wageCalcTests.swift; sourceTree = "<group>"; };
+		8FA0FFC91E3381750019B5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wageCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA0FFD21E3381750019B5EF /* wageCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wageCalcUITests.swift; sourceTree = "<group>"; };
+		8FA0FFD41E3381750019B5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FA0FFAC1E3381750019B5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFC01E3381750019B5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFCB1E3381750019B5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA0FFA61E3381750019B5EF = {
+			isa = PBXGroup;
+			children = (
+				8FA0FFB11E3381750019B5EF /* wageCalc */,
+				8FA0FFC61E3381750019B5EF /* wageCalcTests */,
+				8FA0FFD11E3381750019B5EF /* wageCalcUITests */,
+				8FA0FFB01E3381750019B5EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA0FFB01E3381750019B5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0FFAF1E3381750019B5EF /* wageCalc.app */,
+				8FA0FFC31E3381750019B5EF /* wageCalcTests.xctest */,
+				8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FA0FFB11E3381750019B5EF /* wageCalc */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0FFB21E3381750019B5EF /* AppDelegate.swift */,
+				8FA0FFB41E3381750019B5EF /* ViewController.swift */,
+				8FA0FFB61E3381750019B5EF /* Main.storyboard */,
+				8FA0FFB91E3381750019B5EF /* Assets.xcassets */,
+				8FA0FFBB1E3381750019B5EF /* LaunchScreen.storyboard */,
+				8FA0FFBE1E3381750019B5EF /* Info.plist */,
+			);
+			path = wageCalc;
+			sourceTree = "<group>";
+		};
+		8FA0FFC61E3381750019B5EF /* wageCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0FFC71E3381750019B5EF /* wageCalcTests.swift */,
+				8FA0FFC91E3381750019B5EF /* Info.plist */,
+			);
+			path = wageCalcTests;
+			sourceTree = "<group>";
+		};
+		8FA0FFD11E3381750019B5EF /* wageCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0FFD21E3381750019B5EF /* wageCalcUITests.swift */,
+				8FA0FFD41E3381750019B5EF /* Info.plist */,
+			);
+			path = wageCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FA0FFAE1E3381750019B5EF /* wageCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA0FFD71E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalc" */;
+			buildPhases = (
+				8FA0FFAB1E3381750019B5EF /* Sources */,
+				8FA0FFAC1E3381750019B5EF /* Frameworks */,
+				8FA0FFAD1E3381750019B5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wageCalc;
+			productName = wageCalc;
+			productReference = 8FA0FFAF1E3381750019B5EF /* wageCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FA0FFC21E3381750019B5EF /* wageCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA0FFDA1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcTests" */;
+			buildPhases = (
+				8FA0FFBF1E3381750019B5EF /* Sources */,
+				8FA0FFC01E3381750019B5EF /* Frameworks */,
+				8FA0FFC11E3381750019B5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA0FFC51E3381750019B5EF /* PBXTargetDependency */,
+			);
+			name = wageCalcTests;
+			productName = wageCalcTests;
+			productReference = 8FA0FFC31E3381750019B5EF /* wageCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FA0FFCD1E3381750019B5EF /* wageCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA0FFDD1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcUITests" */;
+			buildPhases = (
+				8FA0FFCA1E3381750019B5EF /* Sources */,
+				8FA0FFCB1E3381750019B5EF /* Frameworks */,
+				8FA0FFCC1E3381750019B5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA0FFD01E3381750019B5EF /* PBXTargetDependency */,
+			);
+			name = wageCalcUITests;
+			productName = wageCalcUITests;
+			productReference = 8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FA0FFA71E3381750019B5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Oliver Mulcahy";
+				TargetAttributes = {
+					8FA0FFAE1E3381750019B5EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8FA0FFC21E3381750019B5EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FA0FFAE1E3381750019B5EF;
+					};
+					8FA0FFCD1E3381750019B5EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FA0FFAE1E3381750019B5EF;
+					};
+				};
+			};
+			buildConfigurationList = 8FA0FFAA1E3381750019B5EF /* Build configuration list for PBXProject "wageCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FA0FFA61E3381750019B5EF;
+			productRefGroup = 8FA0FFB01E3381750019B5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FA0FFAE1E3381750019B5EF /* wageCalc */,
+				8FA0FFC21E3381750019B5EF /* wageCalcTests */,
+				8FA0FFCD1E3381750019B5EF /* wageCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA0FFAD1E3381750019B5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA0FFBD1E3381750019B5EF /* LaunchScreen.storyboard in Resources */,
+				8FA0FFBA1E3381750019B5EF /* Assets.xcassets in Resources */,
+				8FA0FFB81E3381750019B5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFC11E3381750019B5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFCC1E3381750019B5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA0FFAB1E3381750019B5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA0FFB51E3381750019B5EF /* ViewController.swift in Sources */,
+				8FA0FFB31E3381750019B5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFBF1E3381750019B5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA0FFC81E3381750019B5EF /* wageCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA0FFCA1E3381750019B5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA0FFD31E3381750019B5EF /* wageCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FA0FFC51E3381750019B5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA0FFAE1E3381750019B5EF /* wageCalc */;
+			targetProxy = 8FA0FFC41E3381750019B5EF /* PBXContainerItemProxy */;
+		};
+		8FA0FFD01E3381750019B5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA0FFAE1E3381750019B5EF /* wageCalc */;
+			targetProxy = 8FA0FFCF1E3381750019B5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FA0FFB61E3381750019B5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA0FFB71E3381750019B5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FA0FFBB1E3381750019B5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA0FFBC1E3381750019B5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FA0FFD51E3381750019B5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FA0FFD61E3381750019B5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA0FFD81E3381750019B5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wageCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8FA0FFD91E3381750019B5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wageCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8FA0FFDB1E3381750019B5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wageCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wageCalc.app/wageCalc";
+			};
+			name = Debug;
+		};
+		8FA0FFDC1E3381750019B5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wageCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wageCalc.app/wageCalc";
+			};
+			name = Release;
+		};
+		8FA0FFDE1E3381750019B5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wageCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wageCalc;
+			};
+			name = Debug;
+		};
+		8FA0FFDF1E3381750019B5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wageCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wageCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA0FFAA1E3381750019B5EF /* Build configuration list for PBXProject "wageCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA0FFD51E3381750019B5EF /* Debug */,
+				8FA0FFD61E3381750019B5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA0FFD71E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA0FFD81E3381750019B5EF /* Debug */,
+				8FA0FFD91E3381750019B5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FA0FFDA1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA0FFDB1E3381750019B5EF /* Debug */,
+				8FA0FFDC1E3381750019B5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FA0FFDD1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA0FFDE1E3381750019B5EF /* Debug */,
+				8FA0FFDF1E3381750019B5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FA0FFA71E3381750019B5EF /* Project object */;
+}
