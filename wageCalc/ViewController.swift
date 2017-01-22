@@ -23,7 +23,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var minutes: Double = 0
     var seconds: Double = 0
     var totalSeconds: Double = 0
-    var fractions: Double = 0
     var timerString: String = ""
     var wage: Double = 0
     var totalWage: Double = 0
@@ -56,7 +55,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if (!timer.isValid)
         {
             wage = Double(wageField.text!)!
-            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(ViewController.action), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.action), userInfo: nil, repeats: true)
         }
     }
 
@@ -68,24 +67,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func resetButton(_ sender: Any)
     {
         timer.invalidate()
-        fractions = 0
         seconds = 0
         totalSeconds = 0
         minutes = 0
         hours = 0
-        timerField.text = "00:00:00:00"
+        timerField.text = "00:00:00"
         wageTimer.text = "$0.00"
     }
     
     func action()
     {
-        fractions += 1
-        if fractions == 60
-        {
-            seconds += 1
-            totalSeconds += 1
-            fractions = 0
-        }
+        seconds += 1
+        totalSeconds += 1
         if seconds == 60
         {
             minutes += 1
@@ -97,12 +90,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
             minutes = 0
         }
         
-        let fractionsString = fractions > 9 ? "\(Int(fractions))" : "0\(Int(fractions))"
         let secondsString = seconds > 9 ? "\(Int(seconds))" : "0\(Int(seconds))"
         let minutesString = minutes > 9 ? "\(Int(minutes))" : "0\(Int(minutes))"
         let hoursString = hours > 9 ? "\(Int(hours))" : "0\(Int(hours))"
         
-        timerString = "\(hoursString):\(minutesString):\(secondsString):\(fractionsString)"
+        timerString = "\(hoursString):\(minutesString):\(secondsString)"
         
         timerField.text = timerString
         totalWage = Double(totalSeconds*(wage/3600))
