@@ -14,6 +14,12 @@
 		8FA0FFBD1E3381750019B5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0FFBB1E3381750019B5EF /* LaunchScreen.storyboard */; };
 		8FA0FFC81E3381750019B5EF /* wageCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFC71E3381750019B5EF /* wageCalcTests.swift */; };
 		8FA0FFD31E3381750019B5EF /* wageCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0FFD21E3381750019B5EF /* wageCalcUITests.swift */; };
+		8FB938BA1E3466C9006E7B19 /* watchWage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8FB938B91E3466C9006E7B19 /* watchWage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8FB938C91E3466C9006E7B19 /* watchWage.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8FB938AD1E3466C9006E7B19 /* watchWage.app */; };
+		8FB938D91E34718E006E7B19 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB938D81E34718E006E7B19 /* NotificationCenter.framework */; };
+		8FB938DC1E34718E006E7B19 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB938DB1E34718E006E7B19 /* TodayViewController.swift */; };
+		8FB938DF1E34718E006E7B19 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB938DD1E34718E006E7B19 /* MainInterface.storyboard */; };
+		8FB938E31E34718E006E7B19 /* wageTickerWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8FB938D61E34718E006E7B19 /* wageTickerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,64 @@
 			remoteGlobalIDString = 8FA0FFAE1E3381750019B5EF;
 			remoteInfo = wageCalc;
 		};
+		8FB938BB1E3466C9006E7B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA0FFA71E3381750019B5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB938B81E3466C9006E7B19;
+			remoteInfo = "watchWage Extension";
+		};
+		8FB938C71E3466C9006E7B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA0FFA71E3381750019B5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB938AC1E3466C9006E7B19;
+			remoteInfo = watchWage;
+		};
+		8FB938E11E34718E006E7B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA0FFA71E3381750019B5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB938D51E34718E006E7B19;
+			remoteInfo = wageTickerWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FB938CF1E3466C9006E7B19 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8FB938BA1E3466C9006E7B19 /* watchWage Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938D11E3466C9006E7B19 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8FB938C91E3466C9006E7B19 /* watchWage.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938E71E34718E006E7B19 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8FB938E31E34718E006E7B19 /* wageTickerWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8FA0FFAF1E3381750019B5EF /* wageCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wageCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +110,13 @@
 		8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wageCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA0FFD21E3381750019B5EF /* wageCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wageCalcUITests.swift; sourceTree = "<group>"; };
 		8FA0FFD41E3381750019B5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB938AD1E3466C9006E7B19 /* watchWage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchWage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB938B91E3466C9006E7B19 /* watchWage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchWage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB938D61E34718E006E7B19 /* wageTickerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = wageTickerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB938D81E34718E006E7B19 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8FB938DB1E34718E006E7B19 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8FB938DE1E34718E006E7B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8FB938E01E34718E006E7B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +141,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FB938B61E3466C9006E7B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938D31E34718E006E7B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB938D91E34718E006E7B19 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +165,8 @@
 				8FA0FFB11E3381750019B5EF /* wageCalc */,
 				8FA0FFC61E3381750019B5EF /* wageCalcTests */,
 				8FA0FFD11E3381750019B5EF /* wageCalcUITests */,
+				8FB938DA1E34718E006E7B19 /* wageTickerWidget */,
+				8FB938D71E34718E006E7B19 /* Frameworks */,
 				8FA0FFB01E3381750019B5EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +177,9 @@
 				8FA0FFAF1E3381750019B5EF /* wageCalc.app */,
 				8FA0FFC31E3381750019B5EF /* wageCalcTests.xctest */,
 				8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */,
+				8FB938AD1E3466C9006E7B19 /* watchWage.app */,
+				8FB938B91E3466C9006E7B19 /* watchWage Extension.appex */,
+				8FB938D61E34718E006E7B19 /* wageTickerWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +215,24 @@
 			path = wageCalcUITests;
 			sourceTree = "<group>";
 		};
+		8FB938D71E34718E006E7B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FB938D81E34718E006E7B19 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FB938DA1E34718E006E7B19 /* wageTickerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8FB938DB1E34718E006E7B19 /* TodayViewController.swift */,
+				8FB938DD1E34718E006E7B19 /* MainInterface.storyboard */,
+				8FB938E01E34718E006E7B19 /* Info.plist */,
+			);
+			path = wageTickerWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +243,14 @@
 				8FA0FFAB1E3381750019B5EF /* Sources */,
 				8FA0FFAC1E3381750019B5EF /* Frameworks */,
 				8FA0FFAD1E3381750019B5EF /* Resources */,
+				8FB938D11E3466C9006E7B19 /* Embed Watch Content */,
+				8FB938E71E34718E006E7B19 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8FB938C81E3466C9006E7B19 /* PBXTargetDependency */,
+				8FB938E21E34718E006E7B19 /* PBXTargetDependency */,
 			);
 			name = wageCalc;
 			productName = wageCalc;
@@ -181,6 +293,57 @@
 			productReference = 8FA0FFCE1E3381750019B5EF /* wageCalcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8FB938AC1E3466C9006E7B19 /* watchWage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB938D01E3466C9006E7B19 /* Build configuration list for PBXNativeTarget "watchWage" */;
+			buildPhases = (
+				8FB938AB1E3466C9006E7B19 /* Resources */,
+				8FB938CF1E3466C9006E7B19 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FB938BC1E3466C9006E7B19 /* PBXTargetDependency */,
+			);
+			name = watchWage;
+			productName = watchWage;
+			productReference = 8FB938AD1E3466C9006E7B19 /* watchWage.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8FB938B81E3466C9006E7B19 /* watchWage Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB938CE1E3466C9006E7B19 /* Build configuration list for PBXNativeTarget "watchWage Extension" */;
+			buildPhases = (
+				8FB938B51E3466C9006E7B19 /* Sources */,
+				8FB938B61E3466C9006E7B19 /* Frameworks */,
+				8FB938B71E3466C9006E7B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchWage Extension";
+			productName = "watchWage Extension";
+			productReference = 8FB938B91E3466C9006E7B19 /* watchWage Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8FB938D51E34718E006E7B19 /* wageTickerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB938E41E34718E006E7B19 /* Build configuration list for PBXNativeTarget "wageTickerWidget" */;
+			buildPhases = (
+				8FB938D21E34718E006E7B19 /* Sources */,
+				8FB938D31E34718E006E7B19 /* Frameworks */,
+				8FB938D41E34718E006E7B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wageTickerWidget;
+			productName = wageTickerWidget;
+			productReference = 8FB938D61E34718E006E7B19 /* wageTickerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +368,19 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8FA0FFAE1E3381750019B5EF;
 					};
+					8FB938AC1E3466C9006E7B19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8FB938B81E3466C9006E7B19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GYECZHXX7P;
+						ProvisioningStyle = Automatic;
+					};
+					8FB938D51E34718E006E7B19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 8FA0FFAA1E3381750019B5EF /* Build configuration list for PBXProject "wageCalc" */;
@@ -223,6 +399,9 @@
 				8FA0FFAE1E3381750019B5EF /* wageCalc */,
 				8FA0FFC21E3381750019B5EF /* wageCalcTests */,
 				8FA0FFCD1E3381750019B5EF /* wageCalcUITests */,
+				8FB938AC1E3466C9006E7B19 /* watchWage */,
+				8FB938B81E3466C9006E7B19 /* watchWage Extension */,
+				8FB938D51E34718E006E7B19 /* wageTickerWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +428,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938AB1E3466C9006E7B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938B71E3466C9006E7B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938D41E34718E006E7B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB938DF1E34718E006E7B19 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +481,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FB938B51E3466C9006E7B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB938D21E34718E006E7B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB938DC1E34718E006E7B19 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +508,21 @@
 			isa = PBXTargetDependency;
 			target = 8FA0FFAE1E3381750019B5EF /* wageCalc */;
 			targetProxy = 8FA0FFCF1E3381750019B5EF /* PBXContainerItemProxy */;
+		};
+		8FB938BC1E3466C9006E7B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB938B81E3466C9006E7B19 /* watchWage Extension */;
+			targetProxy = 8FB938BB1E3466C9006E7B19 /* PBXContainerItemProxy */;
+		};
+		8FB938C81E3466C9006E7B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB938AC1E3466C9006E7B19 /* watchWage */;
+			targetProxy = 8FB938C71E3466C9006E7B19 /* PBXContainerItemProxy */;
+		};
+		8FB938E21E34718E006E7B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB938D51E34718E006E7B19 /* wageTickerWidget */;
+			targetProxy = 8FB938E11E34718E006E7B19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +541,14 @@
 				8FA0FFBC1E3381750019B5EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8FB938DD1E34718E006E7B19 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FB938DE1E34718E006E7B19 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +650,7 @@
 		8FA0FFD81E3381750019B5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wageCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +663,7 @@
 		8FA0FFD91E3381750019B5EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wageCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -486,6 +727,96 @@
 			};
 			name = Release;
 		};
+		8FB938CA1E3466C9006E7B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchWage_Extension;
+				INFOPLIST_FILE = watchWage/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8FB938CB1E3466C9006E7B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchWage_Extension;
+				INFOPLIST_FILE = watchWage/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8FB938CC1E3466C9006E7B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = GYECZHXX7P;
+				INFOPLIST_FILE = "watchWage Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8FB938CD1E3466C9006E7B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = GYECZHXX7P;
+				INFOPLIST_FILE = "watchWage Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8FB938E51E34718E006E7B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wageTickerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.wageTickerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8FB938E61E34718E006E7B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wageTickerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.wageCalc.wageTickerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +836,7 @@
 				8FA0FFD91E3381750019B5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA0FFDA1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -513,12 +845,38 @@
 				8FA0FFDC1E3381750019B5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA0FFDD1E3381750019B5EF /* Build configuration list for PBXNativeTarget "wageCalcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FA0FFDE1E3381750019B5EF /* Debug */,
 				8FA0FFDF1E3381750019B5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB938CE1E3466C9006E7B19 /* Build configuration list for PBXNativeTarget "watchWage Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB938CC1E3466C9006E7B19 /* Debug */,
+				8FB938CD1E3466C9006E7B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FB938D01E3466C9006E7B19 /* Build configuration list for PBXNativeTarget "watchWage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB938CA1E3466C9006E7B19 /* Debug */,
+				8FB938CB1E3466C9006E7B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FB938E41E34718E006E7B19 /* Build configuration list for PBXNativeTarget "wageTickerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB938E51E34718E006E7B19 /* Debug */,
+				8FB938E61E34718E006E7B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

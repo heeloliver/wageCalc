@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>wageTickerWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>watchWage (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>watchWage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>8FA0FFCD1E3381750019B5EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FB938AC1E3466C9006E7B19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FB938D51E34718E006E7B19</key>
 		<dict>
 			<key>primary</key>
 			<true/>
